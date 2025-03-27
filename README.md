@@ -22,6 +22,17 @@
 Цена на все модели в NetworkToolsAPI в **2 раза** ниже официальных
 
 # Настройка бота
+## Клонирование репозитория
+```bash
+git clone https://github.com/Badim41/chatgpt_telegram_bot.git
+cd chatgpt_telegram_bot
+```
+(Либо скачайте код вручную)
+## Установка зависимостей
+```bash
+pip install -r requirements.txt
+```
+
 ## Получение API Telegram-бота
 
 1. Перейдите в официального телеграм-бота [BotFather](https://t.me/BotFather)

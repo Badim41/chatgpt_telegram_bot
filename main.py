@@ -1,11 +1,11 @@
 import os
 
-from discord_tools.logs import Color
 from telebot.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 import secret
 from base_funcs.base_classes import RequestType
 from base_funcs.base_functions import send_generator, add_user_id, logger, clear_temp_folder, add_request
+from base_funcs.logs import Color
 from bot_class import bot, client, user_data
 
 # Поддерживаемые типы файлов
