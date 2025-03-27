@@ -78,7 +78,7 @@ def process_request(chat_id: int, prompt: str, file_path: str = None):
             model=secret.gpt_model,
             chat_history=user["history"],
             file_path=file_path,
-            internet_access=not bool(file_path),
+            internet_access=secret.internet_access,
             stream=True
         )
 
