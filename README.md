@@ -17,7 +17,7 @@
 
 Здесь будет рассказано о создании собственного телеграм-бота с ChatGPT.
 
-Бот использует [NetworkToolsAPI](https://github.com/Badim41/network_tools) для отправки запросов к ChatGPT и другим моделям
+Бот использует [NetworkToolsAPI](https://github.com/Badim41/network_tools) для отправки запросов к ChatGPT и другим нейросетям для генерации текста
 
 Цена на все модели в NetworkToolsAPI в **2 раза** ниже официальных
 
